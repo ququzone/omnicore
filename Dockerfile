@@ -17,6 +17,6 @@ ADD src/omnicored /bin/app/omnicored
 
 EXPOSE 8332
 
-CMD ["/bin/app/omnicored", "-conf=/bin/app/bitcoin.conf", "-datadir=/bin/app/data"]
+CMD ["/bin/app/omnicored", "-conf=/bin/app/bitcoin.conf"]
 
 

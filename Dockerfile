@@ -14,6 +14,7 @@ RUN apt-get install libdb4.8-dev libdb4.8++-dev -y
 WORKDIR /bin/app
 
 ADD src/omnicored /bin/app/omnicored
+ADD src/omnicore-cli /bin/app/omnicore-cli
 
 EXPOSE 8332
 
